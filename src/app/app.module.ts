@@ -11,6 +11,8 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { ThemeModule } from './modules/theme.module';
 import { SidenavService } from './core/sidenav/sidenav.service';
 import { GalleryComponent } from './core/gallery/gallery.component';
+import { NotificationModule } from './services/notification/notification.module';
+import { NotificationComponent } from './core/notifications/notification.component';
 
 @NgModule({
   declarations: [
@@ -18,13 +20,15 @@ import { GalleryComponent } from './core/gallery/gallery.component';
     SideNavComponent,
     ToolBarComponent,
     HomeComponent,
-    GalleryComponent
+    GalleryComponent,
+    NotificationComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    ThemeModule
+    ThemeModule,
+    NotificationModule
   ],
   providers: [
     SidenavService

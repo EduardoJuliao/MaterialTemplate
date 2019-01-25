@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 @import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+@import 'izitoast/dist/css/iziToast.min.css';
 @import '@mdi/font/css/materialdesignicons.min.css';
 
 body {
